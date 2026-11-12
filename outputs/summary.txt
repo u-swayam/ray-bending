@@ -1,0 +1,56 @@
+RAY BENDING SIMULATION SUMMARY
+============================================================
+
+Simulation parameters
+------------------------------------------------------------
+Atmosphere:
+  ambient_temp_K = 293.15
+  surface_temp_excess_K = 40.0
+  scale_height_m = 0.2
+  n_ref = 1.000277
+  reference_temp_K = 293.15
+Simulation:
+  x_max_m = 120.0
+  max_step_m = 0.25
+  number_of_rays = 3
+
+Ray results
+------------------------------------------------------------
+Ray ID: ray_01
+  Launch height y0 (m):          0.300000
+  Launch angle theta0 (deg):     -0.300000
+  Hit ground:                    No
+  Ground-impact distance (m):    N/A
+  Minimum ray height (m):        0.092715
+  X position of sampled minimum (m): 69.054919
+  Turning point detected:         Yes
+  Turning point (x, y) (m):       (69.021917, 0.092715)
+  Final horizontal position (m): 120.000000
+  Final ray height (m):          0.213004
+  Final slope (dy/dx):           4.347300e-03
+
+Ray ID: ray_02
+  Launch height y0 (m):          0.300000
+  Launch angle theta0 (deg):     -0.200000
+  Hit ground:                    No
+  Ground-impact distance (m):    N/A
+  Minimum ray height (m):        0.184110
+  X position of sampled minimum (m): 61.057621
+  Turning point detected:         Yes
+  Turning point (x, y) (m):       (61.107704, 0.184110)
+  Final horizontal position (m): 120.000000
+  Final ray height (m):          0.292365
+  Final slope (dy/dx):           3.401111e-03
+
+Ray ID: ray_03
+  Launch height y0 (m):          0.300000
+  Launch angle theta0 (deg):     0.000000
+  Hit ground:                    No
+  Ground-impact distance (m):    N/A
+  Minimum ray height (m):        0.300000
+  X position of sampled minimum (m): 0.000000
+  Turning point detected:         Yes
+  Turning point (x, y) (m):       (0.000000, 0.300000)
+  Final horizontal position (m): 120.000000
+  Final ray height (m):          0.537796
+  Final slope (dy/dx):           3.358022e-03

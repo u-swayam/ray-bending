@@ -1,0 +1,2 @@
+Mirage ray diagram generated successfully.
+Interpretation: geometrical-optics illustration of a source-to-observer ray and its backward tangent; not a complete photographic mirage model.

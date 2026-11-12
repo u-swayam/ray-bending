@@ -1,0 +1,27 @@
+{
+  "atmosphere": {
+    "ambient_temp_K": 293.15,
+    "surface_temp_excess_K": 40.0,
+    "scale_height_m": 0.20,
+    "n_ref": 1.000277,
+    "reference_temp_K": 293.15
+  },
+  "simulation": {
+    "x_max_m": 120.0,
+    "max_step_m": 0.25,
+    "rays": [
+      {"ray_id": "ray_01", "y0_m": 0.30, "theta0_deg": -0.30},
+      {"ray_id": "ray_02", "y0_m": 0.30, "theta0_deg": -0.20},
+      {"ray_id": "ray_03", "y0_m": 0.30, "theta0_deg": 0.0}
+    ]
+  },
+  "sensitivity": {
+    "distance_m": 50.0,
+    "surface_temp_excess_values_K": [0, 10, 20, 30, 40, 50]
+  },
+  "mirage": {
+    "source_y_m": 0.05,
+    "observer_y_m": 1.5,
+    "observer_distance_m": 120.0
+  }
+}

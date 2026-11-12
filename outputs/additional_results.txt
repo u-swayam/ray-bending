@@ -1,0 +1,23 @@
+ADDITIONAL RAY-BENDING EXPERIMENTS
+================================================================
+
+1. CRITICAL DOWNWARD LAUNCH ANGLE
+At the limiting ray, theta=0 at y=0, so n(y0) cos(theta_c) = n(0).
+theta_c = arccos(n(0)/n(y0)).
+Launch height y0 = 0.300000 m
+n(0) = 1.000243741708
+n(y0) = 1.000268815673
+Theoretical critical angle magnitude = 0.405687553 deg
+Numerical critical-angle sample minimum height = 9.691549232e-07 m at x = 70.552929 m
+Nearest sampled turning ray below threshold = 0.405281866 deg
+Nearest sampled ground-hit ray above threshold = 0.406093241 deg
+
+2. SIGN OF THE REFRACTIVE-INDEX GRADIENT
+Initial height = 0.300000 m; initial angle = -0.300000 deg
+Temperature excess (K) | outcome | final/minimum height (m)
+                 40.0 | no ground impact | min y=0.092714867
+                  0.0 | ground impact at x=57.295256 m | min y=0.000000000
+                -20.0 | ground impact at x=48.778463 m | min y=0.000000000
+
+Interpretation: positive dn/dy bends a downward ray upward; zero dn/dy
+produces a straight ray; negative dn/dy bends the ray downward.
